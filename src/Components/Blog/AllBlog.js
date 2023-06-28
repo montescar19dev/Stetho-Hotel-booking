@@ -4,6 +4,7 @@ import BlogData from "./BlogData"
 import BlogCard from "./BlogCard"
 
 const AllBlog = () => {
+  // eslint-disable-next-line
   const [items, setIems] = useState(BlogData)
   return (
     <>

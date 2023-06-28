@@ -5,6 +5,7 @@ import "./Destinations.css"
 import Sdata from "./Sdata"
 
 const AllItem = () => {
+  // eslint-disable-next-line
   const [items, setIems] = useState(Sdata)
   return (
     <>
